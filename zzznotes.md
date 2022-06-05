@@ -27,3 +27,10 @@ then, webpack-dev-server
 # code splitting
 
 the split chunks plugin
+
+wow so it adds a new modules thing
+
+# caching
+
+kind of important this part, dont reload vendor much
+

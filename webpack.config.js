@@ -5,7 +5,6 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
-    print: "./src/print.js",
   },
   devtool: "inline-source-map",
   devServer: {
@@ -21,11 +20,5 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
     publicPath: "/",
-  },
-  optimization: {
-    //I feel like this part will be the hardest to understand
-    splitChunks: {
-      chunks: "all",
-    },
   },
 };
