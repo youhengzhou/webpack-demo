@@ -23,3 +23,7 @@ sourcemaps, just use (devtool: 'inline-source-map'), it helps
 then, watch mode, add a script webpack --watch
 
 then, webpack-dev-server
+
+# code splitting
+
+the split chunks plugin

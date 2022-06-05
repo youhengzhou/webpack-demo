@@ -23,6 +23,9 @@ module.exports = {
     publicPath: "/",
   },
   optimization: {
-    runtimeChunk: "single",
+    //I feel like this part will be the hardest to understand
+    splitChunks: {
+      chunks: "all",
+    },
   },
 };
