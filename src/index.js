@@ -1,12 +1,14 @@
-async function getComponent() {
-  const element = document.createElement("div");
-  const { default: _ } = await import("lodash");
+// async function getComponent() {
+//   const element = document.createElement("div");
+//   const { default: _ } = await import("lodash");
 
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+//   element.innerHTML = _.join(["Hello", "webpack"], " ");
 
-  return element;
-}
+//   return element;
+// }
 
-getComponent().then((component) => {
-  document.body.appendChild(component);
-});
+// getComponent().then((component) => {
+//   document.body.appendChild(component);
+// });
+
+import "./assets/styles/styles.css";

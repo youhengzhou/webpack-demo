@@ -34,3 +34,37 @@ wow so it adds a new modules thing
 
 kind of important this part, dont reload vendor much
 
+# libraries
+
+library: "webpackNumbers",
+
+    <script src="https://example.org/webpack-numbers.js"></script>
+    <script>
+        window.webpackNumbers.wordToNum('Five');
+    </script>
+
+    library: {
+        name: 'webpackNumbers',
+        type: 'umd',
+    },
+
+peer dependency
+
+    externals: {
+        lodash: {
+        commonjs: 'lodash',
+        commonjs2: 'lodash',
+        amd: 'lodash',
+        root: '_',
+        },
+    },
+
+im not really sure what this peer dependency thing is
+
+# environment variables
+
+this is weird, passing in a single variable into module.exports as a function
+
+# tree shaking
+
+wow this is really weird

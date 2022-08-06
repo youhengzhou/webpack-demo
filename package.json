@@ -22,7 +22,10 @@
     "webpack-dev-server": "^4.9.1"
   },
   "dependencies": {
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.1.0",
     "lodash": "^4.17.21",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "style-loader": "^3.3.1"
   }
 }
